@@ -1,0 +1,28 @@
+{
+  "id": "client1",
+  "name": "Client One",
+  "theme": {
+    "primary": "#22c55e",
+    "secondary": "#10b981",
+    "accent": "#f43f5e"
+  },
+  "content": {
+    "login": {
+      "title": "Welcome to Client One",
+      "description": "Please sign in to access your dashboard",
+      "signupText": "Need an account?",
+      "signupLink": "Register now"
+    }
+  },
+  "components": {
+    "LoginForm": {
+      "card": {
+        "className": "shadow-xl border-green-100"
+      },
+      "submitButton": {
+        "variant": "primary",
+        "className": "bg-primary-600 hover:bg-primary-700"
+      }
+    }
+  }
+} 
